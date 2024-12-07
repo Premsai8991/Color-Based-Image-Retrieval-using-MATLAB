@@ -10,11 +10,10 @@ This project presents the **Color-Based Image Retrieval System (CBIRS)** impleme
 
 
 ## Features
-- Load and process a dataset of images.
-- Select a query image and compute its histogram.
-- Display the top 5 matching images along with their histograms.
-- Clear displayed results with a reset button.
-- User-friendly GUI for easy interaction.
+1. **Dataset Loader:** Load a dataset of images for analysis.
+2. **Query Selection:** Users can select a query image to retrieve similar images based on color similarity.
+3. **Image Matching:** Displays the top five matches for the query image alongside their RGB histograms.
+4. **Clear Option:** Allows users to reset the interface.
 
 ## Dataset
 The dataset used in this project is the **Oxford 102 Flower Dataset**, which contains 102 flower categories.
