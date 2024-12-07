@@ -62,7 +62,7 @@ The GUI displays:
 ### Example Output
 Below are some example outputs of the GUI after executing the project:
 
-#### Initial GUI Window
+#### GUI Window 
 ![CBIRS Output 1](CBIRS%20Output%201.png)
 
 #### Clear Window State
