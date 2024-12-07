@@ -1,3 +1,36 @@
+% Color-Based Image Retrieval GUI
+% Author: Naga Prem Sai Nellure
+% Date: December 7, 2024
+%
+% Description:
+% This MATLAB GUI application implements a color-based image retrieval system.
+% It uses RGB histogram comparisons to find the most similar images to a query
+% image from a given dataset. The application supports dataset loading, query
+% image selection, and result visualization.
+%
+% References:
+% 1. MATLAB Documentation: MATLAB Image Processing Toolbox 
+%    https://www.mathworks.com/help/images/
+%
+% 2. RGB Histogram Techniques:
+%    - Understanding Histogram Comparison for Image Similarity
+%      https://www.sciencedirect.com/science/article/pii/S003132031730340X
+%    - YouTube Video: "Image Histograms for Computer Vision"
+%      https://www.youtube.com/watch?v=4bf0iO4lxuo&t=62s
+%
+% 3. Histogram-Based Image Retrieval Techniques:
+%    - Research Paper: "Histogram-Based Image Retrieval"
+%      DOI: 10.1016/j.imavis.2009.01.002
+%    - YouTube Video: "Basics of Histogram Comparison"
+%      https://www.youtube.com/watch?v=leLcNHKAFEY
+%
+% 4. GUI Implementation in MATLAB:
+%    - YouTube Video: "Creating MATLAB GUIs with App Designer"
+%      https://www.youtube.com/watch?v=MUySM16gbGA
+%
+% Usage:
+% Run this script in MATLAB. Requires the Image Processing Toolbox.
+
 function colorImageRetrievalGUI()
     % Create the main GUI figure
     fig = uifigure('Name', 'Color-Based Image Retrieval', 'Position', [100, 100, 1000, 800]);
