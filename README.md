@@ -57,9 +57,6 @@ The GUI displays:
 2. Top 5 Matches: Images most similar to the query image based on RGB histogram comparison.
 3. RGB Histograms: Visual representation of the color composition for the query and matched images.
 
-## GUI Output
-
-### Example Output
 Below are some example outputs of the GUI after executing the project:
 
 #### GUI Window 
