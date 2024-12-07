@@ -38,3 +38,21 @@ The dataset used in this project is the **Oxford 102 Flower Dataset**, which con
    - View Results: Observe the top five matching images and their respective RGB histograms.
    - Clear Images: Reset the GUI to its default state.
 
+
+## Format and Size of Input Images
+- The system processes images in .jpg format.
+- Images are resized to 224x224 pixels for consistent histogram calculations.
+
+
+## Code Overview
+The project includes the following key files:
+- colorImageRetrievalGUIClear.m: Main script to launch the GUI.
+- loadDataset.m: Loads and processes the dataset by calculating histograms and RGB averages.
+- TestRGBModel.m: Script to calculate RGB histograms for individual images.
+- Folder: dataset - Contains the images used for matching.
+
+## Output
+The GUI displays:
+1. Query Image: The selected image by the user.
+2. Top 5 Matches: Images most similar to the query image based on RGB histogram comparison.
+3. RGB Histograms: Visual representation of the color composition for the query and matched images.
