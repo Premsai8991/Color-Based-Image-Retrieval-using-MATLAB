@@ -5,6 +5,11 @@ Color-Based Image Retrieval System (CBIRS)
 ## Team Member
 - **Naga Prem Sai Nellure**
 
+## Abstract
+This project presents the **Color-Based Image Retrieval System (CBIRS)** implemented in MATLAB, designed to retrieve images from a dataset based on their color composition. The system utilizes a **Graphical User Interface (GUI)**, enabling users to query images by selecting a reference image. RGB histograms are calculated for image matching. This project demonstrates practical applications of image processing in areas such as digital asset management and media libraries.
+
+---
+
 ## Project Overview
 This project implements a **Color-Based Image Retrieval System** using MATLAB. The primary objective is to retrieve images from a dataset based on their color similarity. This is achieved through RGB histogram comparison.
 
