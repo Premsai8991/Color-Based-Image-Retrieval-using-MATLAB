@@ -51,7 +51,6 @@ The dataset used in this project is the **Oxford 102 Flower Dataset**, which con
 
 ## Code Overview
 This project contains the following main files:
-
 1. **[`colorImageRetrievalGUIClear.m`](https://github.com/Premsai8991/Color-Based-Image-Retrieval-using-MATLAB/blob/main/colorImageRetrievalGUIClear.m)**  
    - This file contains the main GUI code for the project. It includes functionalities to load the dataset, select a query image, compute histograms, and display the results in a user-friendly interface.
 2. **[`loadDataset.m`](https://github.com/Premsai8991/Color-Based-Image-Retrieval-using-MATLAB/blob/main/loadDataset.m)**  
@@ -68,6 +67,7 @@ The GUI displays:
 2. Top 5 Matches: Images most similar to the query image based on RGB histogram comparison.
 3. RGB Histograms: Visual representation of the color composition for the query and matched images.
 
+
 ## Example Outputs
 Below are some example outputs of the GUI after executing the project:
 
@@ -82,6 +82,7 @@ Below are some example outputs of the GUI after executing the project:
 ![CBIR Output 3](CBIR%20Output%203.png)
 ![CBIR Output 4](CBIR%20Output%204.png)
 ![CBIR Output 5](CBIR%20Output%205.png)
+
 
 ## Acknowledgments
 - The dataset was sourced from the Kaggle repository.
