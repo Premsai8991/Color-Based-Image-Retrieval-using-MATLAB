@@ -56,3 +56,21 @@ The GUI displays:
 1. Query Image: The selected image by the user.
 2. Top 5 Matches: Images most similar to the query image based on RGB histogram comparison.
 3. RGB Histograms: Visual representation of the color composition for the query and matched images.
+
+## GUI Output
+
+### Example Output
+Below are some example outputs of the GUI after executing the project:
+
+#### Initial GUI Window
+![CBIRS Output 1](CBIRS%20Output%201.png)
+
+#### Clear Window State
+![Clear Window Output](CBIRS%20Output%201%20Clear%20window.png)
+
+#### Query and Matches Display
+![CBIR Output 2](CBIR%20Output%202.png)
+![CBIR Output 3](CBIR%20Output%203.png)
+![CBIR Output 4](CBIR%20Output%204.png)
+![CBIR Output 5](CBIR%20Output%205.png)
+
