@@ -20,7 +20,7 @@
 %
 % 3. Histogram-Based Image Retrieval Techniques:
 %    - Research Paper: "Histogram-Based Image Retrieval"
-%      DOI: 10.1016/j.imavis.2009.01.002
+%      DOI: 10.1109/ITNG.2009.126
 %    - YouTube Video: "Basics of Histogram Comparison"
 %      https://www.youtube.com/watch?v=leLcNHKAFEY
 %
