@@ -5,17 +5,18 @@ Color-Based Image Retrieval System (CBIRS)
 ## Team Member
 - **Naga Prem Sai Nellure**
 
-## Abstract
-This project presents the **Color-Based Image Retrieval System (CBIRS)** implemented in MATLAB, designed to retrieve images from a dataset based on their color composition. The system utilizes a **Graphical User Interface (GUI)**, enabling users to query images by selecting a reference image. RGB histograms are calculated for image matching. This project demonstrates practical applications of image processing in areas such as digital asset management and media libraries.
+## Project Overview
+This project implements a **Color-Based Image Retrieval System (CBIRS)** using MATLAB. The primary goal is to retrieve images from a dataset based on their color composition, enabling efficient digital asset management. The system employs a Graphical User Interface (GUI) for ease of use, allowing users to query images by selecting a reference image. The retrieval process is based on RGB histogram matching.
 
 
 ## Features
-1. **Dataset Loader:** Load a dataset of images for analysis.
-2. **Query Selection:** Users can select a query image to retrieve similar images based on color similarity.
-3. **Image Matching:** Displays the top five matches for the query image alongside their RGB histograms.
-4. **Clear Option:** Allows users to reset the interface.
-5. **RGB Histogram Comparison**: Used for image similarity measurements.
-6. **Simple GUI**: User-friendly interface for intuitive interaction.
+- **Dataset Loader:** Load a dataset of images for analysis.
+- **Query Selection:** Users can select a query image to retrieve similar images based on color similarity.
+- **Image Matching:** Displays the top five matches for the query image alongside their RGB histograms.
+- **Clear Option:** Allows users to reset the interface.
+- **RGB Histogram Comparison**: Used for image similarity measurements.
+- **Simple GUI**: User-friendly interface for intuitive interaction.
+
 
 ## Dataset
 The dataset used in this project is the **Oxford 102 Flower Dataset**, which contains 102 flower categories.
@@ -23,18 +24,20 @@ The dataset used in this project is the **Oxford 102 Flower Dataset**, which con
 - **Dataset Size:** Approximately 330 MB.
 - **Contents:** 8,189 images across 207 folders with diverse floral compositions.
 
+
 ## Requirements
-- **MATLAB**: Version 2021b or higher, MATLAB App Designer for GUI development
+- **MATLAB**: Version 2021b or higher, including MATLAB App Designer for GUI development.
 - **Toolboxes**: Image Processing Toolbox.
-- **Operating System**: Windows.
+- **Operating System**: Compatible with Windows, Linux, and macOS.
+
 
 ## Installation and Usage
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/Color-Based-Image-Retrieval-System.git
+   git clone https://github.com/Premsai8991/Color-Based-Image-Retrieval-using-MATLAB.git
 2. Open MATLAB and navigate to the folder containing the project files.
 3. Run the script colorImageRetrievalGUIClear.m to launch the GUI.
-4. In the GUI:
+4. Follow these steps in the GUI:
    - Load Dataset: Click to load the dataset folder containing the images.
    - Select Query Image: Choose a query image from your computer to find matches.
    - View Results: Observe the top five matching images and their respective RGB histograms.
@@ -51,7 +54,7 @@ The project includes the following key files:
 - colorImageRetrievalGUIClear.m: Main script to launch the GUI.
 - loadDataset.m: Loads and processes the dataset by calculating histograms and RGB averages.
 - TestRGBModel.m: Script to calculate RGB histograms for individual images.
-- Folder: dataset - Contains the images used for matching.
+- dataset: Contains the images used for matching
 
 ## Output
 The GUI displays:
@@ -59,6 +62,7 @@ The GUI displays:
 2. Top 5 Matches: Images most similar to the query image based on RGB histogram comparison.
 3. RGB Histograms: Visual representation of the color composition for the query and matched images.
 
+## Example Outputs
 Below are some example outputs of the GUI after executing the project:
 
 #### GUI Window 
@@ -73,3 +77,6 @@ Below are some example outputs of the GUI after executing the project:
 ![CBIR Output 4](CBIR%20Output%204.png)
 ![CBIR Output 5](CBIR%20Output%205.png)
 
+## Acknowledgments
+- The dataset was sourced from the Kaggle repository.
+- Project guidance provided by Dr. Velibor Adzic.
