@@ -8,10 +8,6 @@ Color-Based Image Retrieval System (CBIRS)
 ## Abstract
 This project presents the **Color-Based Image Retrieval System (CBIRS)** implemented in MATLAB, designed to retrieve images from a dataset based on their color composition. The system utilizes a **Graphical User Interface (GUI)**, enabling users to query images by selecting a reference image. RGB histograms are calculated for image matching. This project demonstrates practical applications of image processing in areas such as digital asset management and media libraries.
 
----
-
-## Project Overview
-This project implements a **Color-Based Image Retrieval System** using MATLAB. The primary objective is to retrieve images from a dataset based on their color similarity. This is achieved through RGB histogram comparison.
 
 ## Features
 - Load and process a dataset of images.
@@ -24,9 +20,10 @@ This project implements a **Color-Based Image Retrieval System** using MATLAB. T
 The dataset used in this project is the **Oxford 102 Flower Dataset**, which contains 102 flower categories.
 - **Source:** [Kaggle - Oxford 102 Flower Dataset](https://www.kaggle.com/datasets/nunenuh/pytorch-challange-flower-dataset)
 - **Dataset Size:** Approximately 330 MB.
+- **Contents:** 8,189 images across 207 folders with diverse floral compositions.
 
 ## Requirements
-- **MATLAB**: Version 2021b or higher.
+- **MATLAB**: Version 2021b or higher, MATLAB App Designer for GUI development
 - **Toolboxes**: Image Processing Toolbox.
 - **Operating System**: Windows.
 
