@@ -14,6 +14,8 @@ This project presents the **Color-Based Image Retrieval System (CBIRS)** impleme
 2. **Query Selection:** Users can select a query image to retrieve similar images based on color similarity.
 3. **Image Matching:** Displays the top five matches for the query image alongside their RGB histograms.
 4. **Clear Option:** Allows users to reset the interface.
+5. **RGB Histogram Comparison**: Used for image similarity measurements.
+6. **Simple GUI**: User-friendly interface for intuitive interaction.
 
 ## Dataset
 The dataset used in this project is the **Oxford 102 Flower Dataset**, which contains 102 flower categories.
