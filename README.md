@@ -50,11 +50,17 @@ The dataset used in this project is the **Oxford 102 Flower Dataset**, which con
 
 
 ## Code Overview
-The project includes the following key files:
-- colorImageRetrievalGUIClear.m: Main script to launch the GUI.
-- loadDataset.m: Loads and processes the dataset by calculating histograms and RGB averages.
-- TestRGBModel.m: Script to calculate RGB histograms for individual images.
-- dataset: Contains the images used for matching
+This project contains the following main files:
+
+1. **[`colorImageRetrievalGUI.m`](https://github.com/Premsai8991/Color-Based-Image-Retrieval-using-MATLAB/blob/main/colorImageRetrievalGUI.m)**  
+   - This file contains the main GUI code for the project. It includes functionalities to load the dataset, select a query image, compute histograms, and display the results in a user-friendly interface.
+2. **[`loadDataset.m`](https://github.com/Premsai8991/Color-Based-Image-Retrieval-using-MATLAB/blob/main/loadDataset.m)**  
+   - This script is responsible for loading and preprocessing the image dataset, calculating histograms, and storing them for comparison.
+3. **[`TestRGBModel.m`](https://github.com/Premsai8991/Color-Based-Image-Retrieval-using-MATLAB/blob/main/TestRGBModel.m)**  
+   - This file includes RGB model tests for comparing images using average RGB values.
+4. **[`imageLabels.m`](https://github.com/Premsai8991/Color-Based-Image-Retrieval-using-MATLAB/blob/main/imageLabels.m)**  
+   - Provides helper functionality for labeling and organizing images in the dataset.
+
 
 ## Output
 The GUI displays:
